@@ -1,0 +1,10 @@
+docker pull postgres:latest
+docker run --name etl-database -e POSTGRES_PASSWORD=root -d -p 5432:5432 postgres:latest
+docker run -it --network=host postgres /bin/bash
+psql -h 10.0.0.102 -U postgres
+CREATE DATABASE "etl-database";
+\q
+\exit
+
+docker pull metabase/metabase:latest
+docker run -d -p 3000:3000 --name metabase metabase/metabase
