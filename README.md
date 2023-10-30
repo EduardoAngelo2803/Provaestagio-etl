@@ -1,5 +1,5 @@
 # Instruções para Conectar um Banco de Dados ao Metabase Usando Docker Desktop e Windows
-Este README descreve o processo de configuração e execução do Metabase em conjunto com um banco de dados PostgreSQL usando Docker. O Metabase é uma ferramenta de visualização de dados que permite criar painéis e relatórios a partir de fontes de dados. Caso você esteja usando wsl ou linux, ao executar o scrip run_all.sh, o processo é automatizado! Para isso, é necessário criar um arquivo chamada ip_adress.txt, e colocá-lo na mesma pasta do seu projeto, junto com o arquivo csv, e os jobs.py
+Este README descreve o processo de configuração e execução do Metabase em conjunto com um banco de dados PostgreSQL usando Docker. O Metabase é uma ferramenta de visualização de dados que permite criar painéis e relatórios a partir de fontes de dados. Caso você esteja usando **wsl** ou **linux**, ao executar o **script run_all.sh**, o processo é automatizado! Para isso, é necessário criar um arquivo chamada ip_adress.txt, e colocá-lo na mesma pasta do seu projeto, junto com o arquivo csv, e os jobs.py
 
 ## Pré-requisitos
 Antes de começar, certifique-se de ter instalado os seguintes componentes:
