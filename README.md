@@ -25,7 +25,6 @@ Antes de executar o Metabase, você deve configurar um banco de dados PostgreSQL
 3. No terminal, execute os seguintes comandos para baixar e executar uma instância do PostgreSQL usando o Docker:
 
 ```
-Copy code
 docker pull postgres:latest
 docker run --name etl-database -e POSTGRES_PASSWORD=root -d -p 5432:5432 postgres:latest
 ```
